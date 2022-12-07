@@ -1,0 +1,133 @@
+bbody {
+   font: 15px/1.5 Arial,
+Helvetica,serif;
+   padding: 0;
+   margin: 0;
+   background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+    margin: auto;
+    overflow: hidden;
+} 
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header **/
+header{
+   background:#35424a;
+   color:#ffffff;
+   padding-top: 30px;
+   min-height:70px;
+   border-bottom:#e8491d 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header #brand{
+    float: left;
+}
+
+header #brand h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 7px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Shackac */
+#shackac{
+  min-height:400px;
+  background:url('../img/shackac.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+
+#shackac h1{
+  margin-top:100px;
+  font-size:55px;
+  font-family: serif;
+  margin-bottom:10px;
+  color: #6c6fa6;
+}
+
+#shackac p{
+  font-size:18px;
+  color: rgba(30 20 15 10);
+  font-style: ariel;
+  font-weight:10px
+  font-family: san-serif;
+}
+
+#shackac a{
+    font-size: medium;
+}
+
+#shackac .img{
+    float: center;
+}
+
+/* Icons */
+#icons{
+  margin-top:20px;
+  float: center;
+}
+
+#icons a{
+    text-decoration: none;
+    color: #aaaaaa;
+    hover: #333333;
+    float: center;
+    transition: color 0.2s;
+    margin: 0 10px;
+    font-size:55px;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#mp3 {
+    margin-top:10px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
